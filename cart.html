@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>cart</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="fontawesome-free-5.2.0-web/css/all.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="cart__wrapper">
+			<div id="cart">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							<div class="col-md-12"  id="cart__layout">
+								<span class="cart__header">
+									<h1>Giỏ hàng</h1>
+								</span>
+								<form action="POST" method="" id="cart__form">
+									<table>
+										<div class="row">
+											<thead>
+												<tr>
+													<th class="cart__tb--image"></th>
+													<th class="cart__tb--item">Tên sản phẩm</th>
+													<th class="cart__tb--quantity">Số lượng</th>
+													<th class="cart__tb--price">Giá tiền</th>
+													<th class="cart__tb--remove"></th>
+												</tr>
+											</thead>
+										</div>
+										<tbody>
+											<tr class="cart__list">
+												<td class="cart__tb--image">
+													<div class="cart__product-img">
+														<a href=""><img src="images/dsc08418_small.jpg" alt=""></a>
+													</div>
+												</td>
+												<td class="cart__tb--item">
+													<div class="cart__product-item">
+														<a href="">
+															<span class="cart__item-color">Vòng Tay Trầm Sánh Mix Charm</span>
+														</a>
+													</div>
+												</td>
+												<td class="cart__tb--quantity">
+													<div class="cart__product-quantity">
+														<input type="number" size="4" name="updates[]" min="1" id="" value="" onfocus="this.select();" class="cart__item-quantity">
+													</div>
+												</td>
+												<td class="cart__tb--price">
+													<div class="cart__product-price">27000000</div>
+												</td>
+												<td class="cart__tb--remove">
+													<div class="cart__product-remove">
+														<a data-id="" href="" class="cart__item-remove">Xóa</a>
+													</div>
+												</td>
+											</tr>
+											<tr class="cart__sumary">
+												<th class="cart__tb--image"></th>
+												<th class="cart__tb--item"></th>
+												<th class="cart__tb--quantity">Tổng cộng:</th>
+												<th class="cart__tb--price"></th>
+												<th class="cart__tb--remove"></th>
+											</tr>
+										</tbody>
+									</table>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="cart__note">
+												<label for="note">Ghi chú</label>
+												<br>
+												<textarea name="note" id="note" cols="50" rows="8">
+												</textarea>
+											</div>
+										</div>
+										<div class="col-md-6 col-sm-12 col-xs-12 cart__buttons">
+											<div>
+												<a href="#" class="btn btn-primary btn-lg active" id="cart__btn-default" role="button" aria-pressed="true">Cập nhật
+													<span><i class="fas fa-chevron-right"></i></span>
+												</a>
+												<a href="#" class="btn btn-primary btn-lg active" id="cart__btn-default" role="button" aria-pressed="true">Thanh toán
+													<span><i class="fas fa-chevron-right"></i></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-12">
+											<a href="" class="cart__buying">
+												<i class="fas fa-reply"></i> Tiếp tục mua hàng
+											</a>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div> <!-- row -->
+				</div> <!-- container -->
+			</div> <!-- cart -->
+		</div> <!-- cart__wrapper -->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html>
