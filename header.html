@@ -2,221 +2,154 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>header</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>index</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="fontawesome-free-5.2.0-web/css/all.min.css">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 	</head>
 	<body>
-		<!-- TOP SIDEBAR -->
-		<div class="hd__site-topbar">
+		
+		<!-- TOPBAR -->
+		<nav class="bg-dark">
 			<div class="container">
-				<div class="hd__topbar-cart">
-					<div class="hd__shopping-cart">
-						<a href="" title="Gio hang" rel="nofollow">
+				<div class="row">
+					<div class="hd__cart ml-auto">
+						<a href="" title="Giỏ hàng" rel="nofollow">
 							<i class="fas fa-shopping-cart"></i>
 							<span>Giỏ hàng:</span>
 						</a>
 					</div>
-					<!-- hover giỏ hàng xuất hiện thông tin hàng trog giỏ -->
-					<div class="hd__cart-content hd__hidden-xs" id="hd__view-cart">
-						<div class="hd__clone-item"></div> <!-- ??? -->
-						<div class="hd__item-cart clearfix">
-							<div class="hd__navbar-item">
-								<figure class="hd__image-cart">	
-									<a href=""><img src="images/dsc08418_small.jpg" alt=""></a>
-								</figure>
-								<div class="hd__text-cart">
-									<h4><a href="">Lorem ipsum dolor sit amet.</a></h4>
-									<span class="hd__cart--variant"></span>
-									<div> <!-- price line -->
-										số lượng x <span>đơn giá</span> <!-- giá tiền -->
-									</div>
-								</div>
-								<span class="hd__remove-link">
-									<a href="" class="hd__remove-cart">
-										<i class="fas fa-times-circle"></i>
-									</a>
-								</span>
-							</div>
-						</div>
-						<div class="hd__cart-total clearfix">
-							<span class="hd__total-text">Tổng tiền:</span>
-							<span class="hd__total-money">Lorem ipsum</span>
-						</div>
-						<div class="hd__cart-pay">
-							<a href="" class="button-small">
-								<span>Thanh toán <i class="fas fa-chevron-right"></i></span>
-							</a>
-						</div>
-					</div> 
-					<!-- hover giỏ hàng ends -->
 				</div>
-				<div class="hd__topbar-info"></div> <!-- mobile -->
 			</div>
-		</div>
-		<!-- MAIN SIDEBAR -->
-		<div class="containter hd__main-sidebar">
-			<div class="row">
-				<!-- Logo -->
-				<div class="col-md-3 col-xs-12 hd__logo">
-					<a href=""><img src="images/logo.png" class="" alt="Gỗ Thành Vinh"></a> 
-				</div>
-				<!-- Main menu -->
-				<div class="col-md-6 col-xs-12 hd__nav">
-					<div id="navbar">
-						<nav class="navbar navbar-default navbar-static-top" role="navigation">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-								<span class="sr-only">GỖ THÀNH VINH</span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-								</button>
-							</div>
-							<div class="collapse navbar-collapse">
-								<ul class="nav navbar-nav hd__menu--padding">
-									<li class="dropdown">
-										<a href="#" class="dropdown-toggle hd__item--padding" data-toggle="dropdown">SẢN PHẨM
-											<b class="caret"></b>
-										</a>
-										<ul class="dropdown-menu">
-											<li><a href="#">Đồng hồ gỗ</a></li>
-											<li class="dropdown hd__dropdown-submenu">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-													Vòng tay gỗ các loại
-													<span><i class="fas fa-caret-right"></i></span>
-												</a>
-												<ul class="dropdown-menu">
-													<li><a  href="#">Vòng tay gỗ huyết long</a></li>
-													<li><a href="#">Vòng tay gỗ trầm hương</a></li>
-													<li><a href="#">Các loại vòng gỗ khác</a></li>
-													<li><a href="#">Vòng tay sừng bò</a></li>
-													<li><a href="#">Vòng tay gỗ sưa</a></li>
-													<li><a href="#">Vòng tay gỗ cao cấp</a></li>
-												</ul>
-											</li>
-											<li class="dropdown hd__dropdown-submenu">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-												Đồ nội thất
-												<span><i class="fas fa-caret-right"></i></span>
-												</a>
-												<ul class="dropdown-menu">
-													<li><a class="hd__a" href="#">Tượng gỗ</a></li>
-													<li><a href="#">Lịch gỗ</a></li>
-													<li><a href="#">Tranh gỗ treo tường</a></li>
-													<li><a href="#">Đồng hồ gỗ nội thất</a></li>
-													<li><a href="">Đồ gỗ nội thất khác</a></li>
-													<li><a href="">Bàn trà, khay trà gỗ</a></li>
-													<li><a href="">Kệ trang trí gỗ</a></li>
-												</ul>
-											</li>
-											<li class="dropdown hd__dropdown-submenu">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-												Trang sức gỗ
-												<span><i class="fas fa-caret-right"></i></span>
-												</a>
-												<ul class="dropdown-menu">
-													<li><a href="">Nhẫn gỗ</a></li>
-													<li><a href="">Dây chuyền mặt gỗ</a></li>
-												</ul>
-											</li>
-											<li class="dropdown hd__dropdown-submenu">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-												Vỏ gỗ điện thoại
-												<span><i class="fas fa-caret-right"></i></span>
-												</a>
-												<ul class="dropdown-menu">
-													<li><a href="">Vỏ gỗ cao cấp</a></li>
-													<li><a href="">Vỏ gỗ giá rẻ</a></li>
-												</ul>
-											</li>
-											<li class="dropdown hd__dropdown-submenu">
-												<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-												Đồ gỗ độc đáo khác
-												<span><i class="fas fa-caret-right"></i></span>
-												</a>
-												<ul class="dropdown-menu">
-													<li><a href="">Bật lửa gỗ</a></li>
-													<li><a href="">Bút gỗ</a></li>
-													<li><a href="">Tẩu thuốc gỗ</a></li>
-													<li><a href="">USB gỗ</a></li>
-													<li><a href="">Sạc dự phòng gỗ</a></li>
-													<li><a href="">Lược gỗ</a></li>
-													<li><a href="">Bàn phím & chuột gỗ</a></li>
-													<li><a href="">Giá đỡ điện thoại bằng gỗ</a></li>
-													<li><a href="">Hương trầm, nụ trầm đốt</a></li>
-												</ul>
-											</li>
-											<li><a href="">Ốp gỗ smartphone</a></li>
-											<li><a href="">Đồ chơi gỗ</a></li>
-											<li><a href="">Hương trầm, nụ trầm đốt</a></li>
-										</ul>
-									</li>
-									<li><a href="" class="hd__item--padding">GIỚI THIỆU </a></li>
-									<li><a href="" class="hd__item--padding">HỢP TÁC</a></li>
-									<li><a href="" class="hd__item--padding">TIN TỨC</a></li>
-									<li><a href="" class="hd__item--padding">LIÊN HỆ</a></li>
-									<li><a href="" class="hd__item--padding">HỆ THỐNG CỬA HÀNG</a></li>
-								</ul>
-							</div>
-						<!-- /.navbar-collapse -->
-						</nav>
-					</div>
-				</div>
-				<!-- Search -->
-				<div class="col-md-3 hd__search">
-					<nav>
-						<form class="form-inline">
-							<input class="form-control hd__search-box" 
-							type="search" placeholder="Tìm kiếm..." aria-label="Search">
-							<button class="btn btn-outline-dark hd__search-button" type="submit">
-								<i class="fas fa-search"></i>
-							</button>
-						</form>
-					</nav>
-				</div>
-			</div> <!-- row -->
-		</div> <!-- container - menu ends -->
-		<div class="breadcrumbs bc__breadcrumbs--padding">
+		</nav>
+		
+		<!-- MAINBAR -->
+		<nav class="navbar navbar-expand-lg navbar-light">
 			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<ol class="breadcrumb bc--background">
-							<li><a href="#">Gỗ Thành Vinh</a></li>
-							<li><a href="#">Library</a></li>
-							<li class="active">Data</li>
-						</ol>
-					</div>
+				<a class="navbar-brand" href="#">
+					<img src="images/logo.png">
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07" aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarsExample07">
+					<ul class="navbar-nav mr-auto ml-auto">
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="" data-toggle="dropdown" id="dropdown07" aria-haspopup="true" aria-expanded="false">SẢN PHẨM</a>
+							<ul class="dropdown-menu">
+						        <li><a class="dropdown-item clearfix" href="">Action</a></li>
+						        <li class="dropdown-submenu">
+								    <a class="dropdown-item" tabindex="-1" href="#">
+								    	level 1
+								    	<i class="fas fa-caret-right float-right"></i>
+								    </a>
+								    <ul class="dropdown-menu">
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								    </ul>
+								</li>
+						        <li class="dropdown-submenu">
+								    <a class="dropdown-item" tabindex="-1" href="#">
+								    	level 1
+								    	<i class="fas fa-caret-right float-right"></i>
+								    </a>
+								    <ul class="dropdown-menu">
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								    </ul>
+								</li>
+								<li class="dropdown-submenu">
+								    <a class="dropdown-item" tabindex="-1" href="#">
+								    	level 1
+								    	<i class="fas fa-caret-right float-right"></i>
+									</a>
+								    <ul class="dropdown-menu">
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								    </ul>
+								</li>
+								<li class="dropdown-submenu">
+								    <a class="dropdown-item" tabindex="-1" href="#">
+								    	level 1
+								    	<i class="fas fa-caret-right float-right"></i>
+								    </a>
+								    <ul class="dropdown-menu">
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								    </ul>
+								</li>
+								<li class="dropdown-submenu">
+								    <a class="dropdown-item" tabindex="-1" href="#">
+								    	level 1
+								    	<i class="fas fa-caret-right float-right"></i>
+								    </a>
+								    <ul class="dropdown-menu">
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								        <li><a class="dropdown-item" tabindex="-1" href="#">level 2</a></li>
+								    </ul>
+								</li>
+								<li><a class="dropdown-item" href="">Another action</a></li>
+						        <li><a class="dropdown-item" href="">Something else here</a></li>
+						        <li><a class="dropdown-item" href=""> Separated link</a></li>
+						    </ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">GIỚI THIỆU</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">KINH NHIỆM HAY</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">ĐÁNH GIÁ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">HỆ THỐNG CỬA HÀNG</a>
+						</li>
+					</ul>
+					<form class="form-inline my-2 my-md-0">
+						<input class="form-control" type="text" placeholder="Tìm kiếm" aria-label="Search">
+						<button class="btn btn-secondary"><i class="fas fa-search"></i></button>
+					</form>
 				</div>
 			</div>
+		</nav>
+			
+		<!-- BREDCRUMB -->	
+		<div class="container">
+			<ol class="breadcrumb" id="bc__bg">			
+				<div class="row">
+				    <li class="breadcrumb-item"><a href="#">Home</a></li>
+				    <li class="breadcrumb-item"><a href="#">Library</a></li>
+				    <li class="breadcrumb-item active">Data</li>
+				</div>	
+			</ol>
 		</div>
-		<div>
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum voluptatem dolores voluptates maiores reiciendis, similique pariatur rem perspiciatis provident! Deserunt consectetur, cumque culpa dolores provident enim. Delectus, quis. Laudantium qui soluta obcaecati asperiores consectetur non? Repudiandae officia a veritatis expedita officiis, ullam magnam sed. Sunt doloribus eaque quas, beatae porro. Inventore sequi unde, quae delectus? Mollitia.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo laboriosam debitis, tempore dolorem repellat accusantium. Doloribus amet eius atque unde, deleniti illum delectus tempora impedit ad officia vitae dolore iste nostrum tempore, placeat consequuntur quis nam dolor velit non itaque dolorum! Nisi fugit voluptatibus minima. Sunt itaque fugit voluptas neque iusto debitis ullam molestiae nostrum.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum dolores itaque enim amet neque expedita incidunt, adipisci exercitationem molestiae, asperiores est at quo, sunt ullam. Temporibus ad corporis facere reprehenderit nam error atque laborum autem laboriosam accusamus, nulla quae expedita delectus. Sunt, sapiente quos perspiciatis repellendus enim nulla tenetur mollitia alias necessitatibus, ipsa, doloremque dolorem incidunt.
-		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium a architecto quod deserunt, modi! Expedita atque ea suscipit, excepturi dignissimos officiis harum debitis esse blanditiis rem, fuga aperiam veritatis magnam in laborum similique possimus, illum autem, culpa exercitationem. Ipsam nulla assumenda rerum expedita repellat, magnam debitis fuga reprehenderit laudantium optio quidem perferendis, non pariatur dolore. Itaque.</div>
-		<div>Sit inventore nostrum pariatur ex voluptatibus labore ipsam numquam aliquid vel ducimus officiis voluptas, neque iure, perferendis corporis molestiae molestias! Dolor repellendus nobis non odit labore ea nesciunt assumenda vel, doloribus placeat minima ut nemo, alias quasi ad quod ipsa a rerum. Aspernatur omnis obcaecati, provident! Maxime consequatur quas voluptatem officiis doloremque minima minus ratione commodi.</div>
-		<div>Ab, consequatur, tempora. Ullam, deleniti. Repellendus dignissimos voluptas pariatur odio veniam obcaecati doloribus totam sint quaerat neque impedit accusamus provident iste iure culpa explicabo reiciendis, eligendi ex quod! Aperiam eius maiores vero at similique, cumque eligendi quam earum ab vel animi qui, facilis, culpa asperiores doloremque odit alias quae nemo. Perferendis nihil quod deserunt voluptatem ad.</div>
-		<div>Neque ex assumenda laborum veritatis inventore harum laudantium maxime architecto odio, quos reprehenderit dignissimos natus earum explicabo, facere iusto. Aliquid libero beatae provident, temporibus eum fuga quia magnam incidunt, dolorum impedit voluptatum quos eveniet sapiente alias pariatur ut minima, sint ab iusto deserunt dicta perferendis! Tenetur dolorem natus vel, ad voluptatem quidem ipsam nesciunt alias minus.</div>
-		<div>Suscipit harum inventore expedita aspernatur nemo quasi qui provident repudiandae beatae eum vel recusandae, vitae eaque quod debitis nulla doloribus. Voluptatem, sit repellendus? Nisi fugit maxime repellendus nostrum tenetur quasi, repellat deleniti a. Hic eum perferendis delectus aspernatur fugit facilis at voluptates. Voluptatum ut quod ex magni obcaecati, repudiandae nobis delectus, nisi asperiores neque aliquam placeat!</div>
-		<div>Itaque nesciunt dolorum repellendus ex aliquam. Amet iure quia voluptates aut aliquam! Blanditiis quo quas vitae in cum, perferendis aperiam aliquam, omnis sit dolorem, quia autem vel odit eius? Delectus possimus laudantium tenetur earum quos alias quae similique! Placeat quod architecto ex, expedita deserunt maiores dolor alias laudantium corrupti itaque quisquam qui eligendi quae omnis vero.</div>
-		<div>Eius dicta culpa deleniti explicabo, qui nemo eaque! Porro enim distinctio quidem eum consequuntur at reprehenderit magni. Assumenda itaque, ea repellendus similique reprehenderit velit obcaecati quod fugiat ipsa dicta animi blanditiis deleniti voluptas soluta totam doloremque voluptatibus, nulla enim quaerat! Vitae laboriosam explicabo molestias consequuntur harum quidem, sequi, odio deserunt delectus, amet qui eum nisi tempora!</div>
-		</div>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>

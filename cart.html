@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
@@ -98,12 +98,109 @@
 								</form>
 							</div>
 						</div>
-					</div> <!-- row -->
-				</div> <!-- container -->
-			</div> <!-- cart -->
-		</div> <!-- cart__wrapper -->
+					</div> row
+				</div> container
+			</div> cart
+		</div> cart__wrapper
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>cart</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<h4>GIỎ HÀNG</h4>
+				<hr>
+			</div>
+			<div class="row">
+				<table class="table table-responsive-md">
+				    <thead>
+				      <tr>
+				      	<th></th>
+				        <th>Tên sản phẩm</th>
+				        <th>Số lượng</th>
+				        <th>Giá tiền</th>
+				        <th></th>
+				      </tr>
+				    </thead>
+				    <tbody>
+				      	<tr>
+				            <td class="align-middle"><img src="images/dsc08418_small.jpg" id="cart__img"></td>
+				            <td class="align-middle cart__pro-name">
+				            	<a href="" class="cart__link">Vòng Tay Trầm Tốc Mix Charm bàn tay</a>
+				            </td>
+				            <td class="align-middle">
+				            	<input type="number" size="4" name="updates[]" min="1" id="cart__pro-quantity" value="" 
+				            	onfocus="this.select();">
+				            </td>
+				            <td class="align-middle">580000000</td>
+				            <td class="align-middle"><a href="" class="cart__delete">Xóa</a></td>
+				      	</tr>
+				      	<tr>
+				            <td class="align-middle"><img src="images/dsc08418_small.jpg" id="cart__img"></td>
+				            <td class="align-middle cart__pro-name">
+				            	<a href="" class="cart__link">Vòng Tay Trầm Tốc Mix Charm bàn tayVòng Tay Trầm Tốc Mix Charm bàn tayVòng Tay Trầm Tốc Mix Charm bàn tay</a>
+				            </td>
+				            <td class="align-middle">
+				            	<input type="number" size="4" name="updates[]" min="1" id="cart__pro-quantity" value="" 
+				            	onfocus="this.select();">
+				            </td>
+				            <td class="align-middle">580000000</td>
+				            <td class="align-middle"><a href="" class="cart__delete">Xóa</a></td>
+				      	</tr>
+				      	<tr>
+				            <td></td>
+				            <td></td>
+				            <td class="align-middle"><strong>Tổng cộng</strong></td>
+				            <td class="align-middle"><strong>580000000</strong></td>
+				            <td></td>
+				      	</tr>
+				    </tbody>
+				    <hr>
+				</table>
+			</div> <!-- row -->
+			<div class="row">
+				<div class="col-md-6">
+					<label for="note">Ghi chú</label>
+					<br>
+					<textarea class="form-inline" name="note" id="note" cols="40" rows="3">
+					</textarea>
+				</div>
+				<div class="col-md-6">
+					<div class="mt-md-5 float-md-right">
+						<button class="btn btn-dark btn-lg">
+							Cập nhật
+							<i class="fas fa-chevron-right"></i>
+						</button>
+						<button class="btn btn-dark btn-lg">
+							Thanh toán 
+							<i class="fas fa-chevron-right"></i>
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 mt-md-3 mt-sm-5">
+					<a href="" class="cart__link">
+						<i class="fas fa-reply"></i> Tiếp tục mua hàng
+					</a>
+				</div>
+			</div>
+		</div> <!-- container -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	</body>
 </html>
