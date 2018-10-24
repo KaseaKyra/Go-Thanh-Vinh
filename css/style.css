@@ -21,6 +21,9 @@
   text-decoration: none;
 }
 
+@media screen {
+  
+}
 /**
  * CSS - MAINBAR
  */
@@ -85,3 +88,6 @@
   text-decoration: none;
 }
 
+/** 
+ * CSS - NEWS
+ */

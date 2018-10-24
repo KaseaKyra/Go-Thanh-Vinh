@@ -5,7 +5,6 @@ $(".dropdown-toggle").on("mouseenter", function () {
     }
 });
 
-// 
 $(".btn-group, .dropdown").on("mouseleave", function () {
     // make sure it is shown:
     if ($(this).hasClass("show")){
