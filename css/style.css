@@ -6,26 +6,41 @@
   font-size: 12px;
   height: 40px;
   line-height: 40px;
+  position: relative;
 }
 
 .hd__cart a {
-  display: inline-block;
+  display: block;
   color: #b0b0b0;
   padding: 0 15px;
 }
 
-.hd__cart a:hover .{
+.hd__cart a:hover {
   color: #424242;
   background-color: #fff;
   text-decoration: none;
 }
 
-.hd__img {
-max-width: 84px;
+.hd__cart-content {
+  position: absolute;
+  min-width: 300px;
+  background-color: #fff;
+  display: none;
+  z-index: 1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+} 
+
+.hd__cart:hover .hd__cart-content{
+  display: block;
 }
 
-.hd__cart-content {
-  max-width: 300px;
+#hd__cart-title {
+  color: #000;
+}
+
+.hd__img {
+max-width: 70px;
 }
 
 /**
