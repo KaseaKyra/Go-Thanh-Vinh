@@ -12,18 +12,22 @@
   display: inline-block;
   color: #b0b0b0;
   padding: 0 15px;
-  text-decoration: none;
 }
 
-.hd__cart a:hover {
+.hd__cart a:hover .{
   color: #424242;
   background-color: #fff;
   text-decoration: none;
 }
 
-@media screen {
-  
+.hd__img {
+max-width: 84px;
 }
+
+.hd__cart-content {
+  max-width: 300px;
+}
+
 /**
  * CSS - MAINBAR
  */
@@ -44,6 +48,10 @@
 
 .dropdown-submenu:hover > .dropdown-menu {
     display: block;
+}
+
+#search__border {
+  border-color: #ced4da;
 }
 
 /** 
@@ -75,7 +83,6 @@
 }
 
 .cart__link:hover {
-  text-decoration: none;
   color: #736f6d;
 }
 
@@ -84,10 +91,34 @@
   color: #000;
 }
 
-.cart__delete:hover {
+.cart__delete:hover, 
+.cart__link:hover, 
+.ne__comment:hover {
   text-decoration: none;
 }
 
 /** 
  * CSS - NEWS
  */
+.ne__left-top {
+  background-color: #28303e; 
+  color: #fff;
+}
+
+.ne__left-bottom {
+  background-color: #f0f0f0;
+}
+
+.ne--fz {
+  font-size: 12px;
+}
+
+.ne__comment, 
+.ne__comment:hover {
+  color: #000;
+}
+
+#ne__delete-border {
+  border: none;
+}
+
